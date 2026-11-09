@@ -242,8 +242,13 @@ footer a{color:var(--gold);font-weight:700}
         <label for="phone">Phone number</label>
         <input id="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="e.g. 08012345678" required>
         <label for="skill">Skill you want to learn</label>
-        <select id="skill" required disabled>
-          <option value="" selected>Skills dropdown temporarily locked</option>
+        <select id="skill" required>
+          <option value="" disabled selected>Select a skill</option>
+          <option>Chin chin Making</option>
+          <option>Soap Making</option>
+          <option>Perfume Making</option>
+          <option>Graphics using Canva</option>
+          <option>Stitching</option>
         </select>
         <button class="btn primary" type="submit" id="submitBtn">Get my PIN</button>
         <p class="err" id="err" role="alert"></p>
